@@ -1,0 +1,56 @@
+<ul class="list-group sticky-top sticky-offset">
+    <!-- Separator with title -->
+    <li class="list-group-item sidebar-separator-title text-muted d-flex align-items-center menu-collapsed">
+        <small>MAIN MENU</small>
+    </li>
+    <!-- /END Separator -->
+    <!-- Menu with submenu -->
+    <a   data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start " style=" background-color: #52ffef!important;">
+        <div  class="fa fa-dashboard fa-fw mr-3"  >
+	   
+            <span  (click)="goToHome()">Home</span>
+
+           
+     </div>
+    </a>
+    <a   routerLink="/adminDashboard" data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start " style=" background-color: #52ffef!important;">
+        <div  class="fa fa-dashboard fa-fw mr-3"  >
+	   
+            <span class="menu-collapsed " *ngIf="userData.roles.indexOf('ADMIN') > -1"> Admin Dashboard </span>
+            <span class="submenu-icon ml-auto"></span>
+
+           
+     </div>
+    </a>
+    <a   data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start " style=" background-color: #52ffef!important;">
+        <div  class="fa fa-dashboard fa-fw mr-3" (click)="redirect('discussion')">
+	   
+            <span class="menu-collapsed " style="font-weight: 100;"> Discussion Thread </span>
+            <span class="submenu-icon ml-auto"></span>
+           
+     </div>
+    </a>
+	 
+	 <a   data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start " style=" background-color: #52ffef!important;">
+        <div  class="fa fa-dashboard fa-fw mr-3" (click)="redirect('message')">
+	   
+            <span class="menu-collapsed "  > Messaging </span>
+            
+     </div>
+    </a>
+	
+	 <a   data-toggle="collapse" aria-expanded="false" class=" list-group-item list-group-item-action flex-column align-items-start " style=" background-color: #52ffef!important;" >
+        <div  class="fa fa-dashboard fa-fw mr-3" (click)="redirect('blog')">
+	   
+            <span class="menu-collapsed "  > Blog creater </span>
+            
+           
+     </div>
+    </a>
+   
+  
+    <!-- Logo -->
+    <li class="list-group-item logo-separator d-flex justify-content-center">
+        <img src="../../assets/images/university.png" width="60" height="50" class="d-inline-block align-top" alt="">
+    </li>
+</ul>

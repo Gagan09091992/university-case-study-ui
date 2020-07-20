@@ -1,0 +1,7 @@
+[{
+  "_id": "1",
+  "discussionTitle": "firstdis",
+  "discussionAuthor": "DisAuthAgagan",
+  "body": "Hi This is Gagan , I am Senior system engineer in IBM. working for AT&tCLient",
+  "_class": "com.ibm.university.entity.Discussion"
+}]

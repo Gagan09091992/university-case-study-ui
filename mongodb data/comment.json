@@ -1,0 +1,12 @@
+[{
+  "_id": "001",
+  "commentDetail": "firstComment",
+  "discussionId": "1",
+  "_class": "com.ibm.university.entity.Comments"
+},{
+  "_id": {
+    "$oid": "5f12c9cf8fc27d6084c040ba"
+  },
+  "discussionId": "1",
+  "_class": "com.ibm.university.entity.Comments"
+}]

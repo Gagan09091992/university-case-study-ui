@@ -1,0 +1,9 @@
+[{
+  "_id": {
+    "$oid": "5ef5f05455f95e3252167eee"
+  },
+  "detail": "comment detail",
+  "blogId": "5ef5eecb55f95e3252167eed",
+  "userId": "gg099",
+  "_class": "com.ibm.university.entity.BlogComment"
+}]

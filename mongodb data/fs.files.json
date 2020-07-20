@@ -1,0 +1,16 @@
+[{
+  "_id": {
+    "$oid": "5eef360f44d8191b7c66ead8"
+  },
+  "filename": "file",
+  "length": 26132873,
+  "chunkSize": 261120,
+  "uploadDate": {
+    "$date": "2020-06-21T10:27:28.026Z"
+  },
+  "metadata": {
+    "type": "video",
+    "title": "fname",
+    "_class": "com.mongodb.BasicDBObject"
+  }
+}]

@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "5eedf1204e197758aa603279"
+  },
+  "name": "Gagan",
+  "username": "RealAdmin",
+  "password": "$2a$10$fzJNIfDdo80dF./BttzIbeCCmFsc/Ctpkm1XFbZSW3.whDQzCfvK.",
+  "roles": [
+    "ADMIN"
+  ],
+  "_class": "com.ibm.university.entity.User"
+},{
+  "_id": {
+    "$oid": "5eedf9274e197758aa60327e"
+  },
+  "name": "user2",
+  "username": "user2",
+  "password": "$2a$10$o9.1HUDQUg7TGxIscwXuvul2A0YmlPuKnAELXZrF/jThFr5vI0uuC",
+  "roles": [
+    ""
+  ],
+  "_class": "com.ibm.university.entity.User"
+}]
